@@ -15,9 +15,17 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello, world!")
             Text("ass")
+            
         }
         .padding()
+        ZStack {
+            Text("woof").frame(width: 281, height: 38)
+            .background(Color(red: 0.76, green: 0.83, blue: 0.98))
+            .cornerRadius(10)
+        }
+        
     }
+    
 }
 
 #Preview {
